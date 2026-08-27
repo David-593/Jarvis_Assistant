@@ -46,37 +46,61 @@ API Key de Google AI Studio.
 
 2. Clonar el repositorio e instalar dependencias
 Bash
+
 # Clonar el proyecto
+
 git clone https://github.com/TU-USUARIO/Jarvis-Assistant.git
+
 cd Jarvis-Assistant
 
+
 # Crear entorno virtual
+
 python -m venv venv
 
+
 # Activar entorno virtual (Windows)
+
 .\venv\Scripts\activate
 
+
 # Activar entorno virtual (Linux/macOS)
+
 source venv/bin/activate
 
+
 # Instalar librerías
+
 pip install -r requirements.txt
+
 3. Configurar API Key
+4. 
 Crea el archivo config/settings.py y define tu clave de acceso:
 
+
 Python
+
 GEMINI_API_KEY = "TU_API_KEY_AQUI"
+
 Ejecución
+
 Para iniciar el sistema, ejecuta el punto de entrada principal:
 
+
 Bash
+
 python main.py
+
 Activación por voz: Di la palabra "Jarvis" en tu oración para enviarle un comando.
+
 
 Comandos de salida: Di palabras clave como "salir", "cerrar" o "descansa" para terminar la ejecución de forma segura.
 
+
 Tecnologías Utilizadas
+
 Lenguaje: Python
+
 
 Interfaz Gráfica: PySide6 (Qt for Python)
 

@@ -11,18 +11,31 @@ El código está modularizado para separar la lógica del modelo de lenguaje, la
 
 
 Plaintext
+
 Jarvis-Assistant/
+
 ├── config/
-│   └── settings.py         # Configuración de credenciales y variables globales
+
+│   └── settings.py # Configuración de credenciales y variables globales
+
 ├── core/
+
 │   ├── llm_engine.py       # Integración con Gemini API, prompts y soporte de herramientas
+
 │   └── voice_engine.py     # Captura de audio (STT) y generación de voz (TTS)
+
 ├── tools/
+
 │   └── football_tool.py    # Integración de funciones personalizadas (Function Calling)
+
 ├── ui/
+
 │   └── hud_gui.py          # Renderizado vectorial de la GUI con QPainter en PySide6
+
 ├── main.py                 # Orquestación del ciclo de vida y gestión de hilos
+
 └── requirements.txt        # Librerías y dependencias
+
 Guía de Instalación y Configuración
 
 1. Requisitos del sistema

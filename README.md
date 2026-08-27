@@ -1,10 +1,14 @@
 JARVIS OS — Asistente Personal de Voz con Interfaz HUD
+
 Este proyecto consiste en el desarrollo de un asistente personal de voz interactivo en tiempo real, diseñado para ofrecer respuestas rápidas y fluidas mediante una interfaz gráfica tipo Sci-Fi inspirada en Stark Industries.
+
 
 El objetivo principal fue construir una arquitectura capaz de procesar comandos de voz con baja latencia y mantener la fluidez de la interfaz gráfica sin bloqueos ni congelamientos durante el ciclo de vida del audio.
 
+
 Estructura del Proyecto
 El código está modularizado para separar la lógica del modelo de lenguaje, la síntesis de audio y el motor gráfico:
+
 
 Plaintext
 Jarvis-Assistant/
@@ -20,10 +24,12 @@ Jarvis-Assistant/
 ├── main.py                 # Orquestación del ciclo de vida y gestión de hilos
 └── requirements.txt        # Librerías y dependencias
 Guía de Instalación y Configuración
+
 1. Requisitos del sistema
 Python 3.10 o superior.
 
 API Key de Google AI Studio.
+
 
 2. Clonar el repositorio e instalar dependencias
 Bash

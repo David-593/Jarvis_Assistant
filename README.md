@@ -49,7 +49,6 @@ Bash
 
 # Clonar el proyecto
 
-git clone https://github.com/TU-USUARIO/Jarvis-Assistant.git
 
 cd Jarvis-Assistant
 
